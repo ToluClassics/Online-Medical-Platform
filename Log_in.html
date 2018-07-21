@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>E-MedCare</title>
+		<link rel="icon" type="image/png" href="img/favicon.png"/>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700%7CCabin:400%7CDancing+Script" rel="stylesheet">
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+
+    </head>
+	<body>
+	
+		<!-- Header -->
+		<header id="header">
+
+			<!-- Top nav -->
+			<div id="top-nav">
+				<div class="container">
+
+				<!-- logo -->
+				<div class="logo">
+					<a href="index.html"><img src="./img/site_logo.png" alt="logo"></a>
+				</div>
+				<!-- logo -->
+
+				<!-- Mobile toggle -->
+				<button class="navbar-toggle">
+					<span></span>
+				</button>
+				<!-- Mobile toggle -->
+				
+				<!-- social links -->
+				<ul class="social-nav">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+				<!-- /social links -->
+
+				</div>
+			</div>
+			<!-- /Top nav -->
+
+			<!--	 Bottom nav -->
+			<div id="bottom-nav">
+				<div class="container">
+				<nav id="nav">
+
+					<!-- nav -->
+					<ul class="main-nav nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#Frequetly">Faq</a></li>
+						<li><a href="#">Our Services</a></li>
+						<li><a href="#">Health Blog</a></li>
+						<li id="us"><a href="#ContactForm">Contact Us</a></li>
+					</ul>
+					<!-- /nav -->
+					<ul class="nav navbar-nav navbar-right">
+						        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                or
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+					</ul>
+
+					<!-- contact nav -->
+					<ul class="contact-nav nav navbar-nav navbar-right">
+						<li><a href="#"><i class="fa fa-phone"></i>+234*********</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> WAAW Foundation</a></li>	
+					</ul>
+
+					
+					<!-- contact nav -->
+
+				</nav>
+				</div>
+			</div>
+			<!-- /Bottom nav -->
+
+
+		</header>
+		<div id="home" class="banner-area" style="height: 80vh;">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/background04.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="home-wrapper">
+
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="home-content">
+						<h1 class="white-text">Register With US</h1>
+						
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- /Header -->
+
+
+
+		<div class="container">
+		<div>
+			
+<div class="row active">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" id="register" >
+		<form role="form">
+			<h2 class="text-center">Sign Up </h2>
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
+			</div>
+			<div class="form-group">
+				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 col-sm-3 col-md-3">
+					<span class="button-checkbox">
+						<button type="button" class="btn" data-color="info" tabindex="7">I Agree</button>
+                        <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
+					</span>
+				</div>
+				<div class="col-xs-8 col-sm-9 col-md-9">
+					 By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out by this site, including our Cookie Use.
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="row lowo">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" id="register" >
+		<form role="form">
+			<h2 class="text-center">Log In</h2>
+			<hr class="colorgraph">
+			<div class="row">
+			<div class="form-group">
+				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+					</div>
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+
+		</div>
+	<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" id="register" >
+			<form role="form">
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+				<div class="col-xs-12 col-md-6"><p class="btn btn-success btn-block btn-lg sign">Sign In</p></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="t_and_c_m" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
+			</div>
+			<div class="modal-body">
+				<p>E-MedCare is a medical platform that connect with specialist doctors spread across the nations. On E-MedCare, you will find certified doctors that specialize in several areas of Medicine. They are available to attend to you both offline and online. We are here to ensure that you get the best medical attention
+				</p>
+				<p>E-MedCare is a medical platform that connect with specialist doctors spread across the nations. On E-MedCare, you will find certified doctors that specialize in several areas of Medicine. They are available to attend to you both offline and online. We are here to ensure that you get the best medical attention
+				</p>
+				<p>E-MedCare is a medical platform that connect with specialist doctors spread across the nations. On E-MedCare, you will find certified doctors that specialize in several areas of Medicine. They are available to attend to you both offline and online. We are here to ensure that you get the best medical attention
+				</p>
+				
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+
+
+
+		<!-- Footer -->
+<hr>
+<footer class="footer1" >
+<div class="container">
+<div class="row"><!-- row -->
+            
+                <div class="col-lg-6 col-md-6"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Who is E-MedCare</h1>
+                                <blockquote class="text-justify" style="font-size: 15px;">E-MedCare is a medical platform that connect with specialist doctors spread across the nations. On E-MedCare, you will find certified doctors that specialize in several areas of Medicine. They are available to attend to you both offline and online. We are here to ensure that you get the best medical attention <footer>Founders, E-MedCare Foundation</footer></blockquote>
+                              	               
+							</li>
+                        </ul>
+                </div><!-- widgets column left end -->
+                 
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Our Services</h1>
+                                
+                                <ul>
+
+
+                <li><a href="#"><i class="fa fa-arrow-right"></i> Online Video Consultation</a></li>
+ 				<li><a href="#"><i class="fa fa-arrow-right"></i> Health Blog</a></li>
+				<li><a href="#"><i class="fa fa-arrow-right"></i> Home Consultation</a></li>
+				<li><a href="#"><i class="fa fa-arrow-right"></i> Map With Hospital Landmarks</a></li>
+				<li><a href="#"><i class="fa fa-arrow-right"></i> Drug Prescription</a></li>
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                
+                <hr>
+                <p class="text-left inverse-text"><strong>E-MedCare app coming to playstore and itunes soon!!!</strong></p>
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column center -->
+                        <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_recent_news"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Contact Info.</h1>
+                                <hr>
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">E-MedCare</h2>
+                                <p><b>Email Address:</b> <a href="#">e_medcare@gmail.com</a></p>
+							    <p><b>Postal Address: </b>********************************</p>
+    							<p><b>Phone Numbers : </b>+234********</p>
+                                </div>
+                                
+                                <div class="social-icons">
+                                	<ul class="nomargin">                    
+                <a href=""><i class="fa fa-facebook fa-3x" id="social" ></i></a>
+	            <a href=""><i class="fa fa-twitter fa-3x social-tw" id="social"></i></a>
+	            <a href=""><i class="fa fa-google fa-3x social-gp" id="social"></i></a>
+	            <a href=""><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div>
+                    		</li>
+                          </ul>
+                       </div>
+                </div>
+</div>
+</footer>
+		<!-- Contact -->
+
+		<!-- Footer -->
+		<footer id="footer">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- copyright -->
+					<div class="col-md-6">
+						
+						<span class="copyright">Copyright @2018 All rights reserved | The E-MedCare Platform Was Created by Drizzy Group of WAAW Foundation</span>
+						
+					</div>
+					<!-- /copyright -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<nav class="footer-nav">
+							<a href="#">Home</a>
+							<a href="#">Faq</a>
+							<a href="#">Our Services</a>
+							<a href="#">Health Blog</a>
+							<a href="#">Privacy Policy</a>
+						</nav>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="js/google-map.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>

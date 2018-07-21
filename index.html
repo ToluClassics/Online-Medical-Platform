@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>E-MedCare</title>
+		<link rel="icon" type="image/png" href="img/favicon.png"/>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700%7CCabin:400%7CDancing+Script" rel="stylesheet">
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+    </head>
+	<body>
+
+		<!-- Header --> 
+    <header id="header">
+
+      <!-- Top nav -->
+      <div id="top-nav">
+        <div class="container">
+
+        <!-- logo -->
+        <div class="logo">
+          <a href="index.html"><img src="./img/site_logo.png" alt="logo"></a>
+        </div>
+        <!-- logo -->
+
+        <!-- Mobile toggle -->
+        <button class="navbar-toggle">
+          <span></span>
+        </button>
+        <!-- Mobile toggle -->
+
+        <!-- Dropdown Login -->
+        
+
+        <!-- social links -->
+        <ul class="social-nav">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+        <!-- /social links -->
+
+        </div>
+      </div>
+      <!-- /Top nav -->
+
+      <!-- Bottom nav -->
+      <div id="bottom-nav">
+        <div class="container">
+        <nav id="nav">
+
+          <!-- nav -->
+          <ul class="main-nav nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#Frequetly">Faq</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Health Blog</a></li>
+            <li id="us"><a href="#ContactForm">Contact Us</a></li>
+          </ul>
+          <!-- /nav -->
+          <!-- login -->
+          <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+      <ul id="login-dp" class="dropdown-menu">
+        <li>
+           <div class="row">
+              <div class="col-md-12">
+                Login via
+                <div class="social-buttons">
+                  <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+                                or
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                       <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                    </div>
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputPassword2">Password</label>
+                       <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                    </div>
+                    <div class="form-group">
+                       <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                    </div>
+                    <div class="checkbox">
+                       <label>
+                       <input type="checkbox"> keep me logged-in
+                       </label>
+                    </div>
+                 </form>
+              </div>
+              <div class="bottom text-center">
+                New here ? <a href="Log_in.html"><b>Join Us</b></a>
+              </div>
+           </div>
+        </li>
+      </ul>
+        </li>
+          </ul>
+          <!-- end login -->
+          <!-- contact nav -->
+          <ul class="contact-nav nav navbar-right navbar-nav">
+            <li><a href="#"><i class="fa fa-phone"></i>+234*********</a></li>
+            <li><a href="#"><i class="fa fa-map-marker"></i> WAAW Foundation</a></li>
+          </ul>
+          <!-- contact nav -->
+
+        </nav>
+        </div>
+      </div>
+      <!-- /Bottom nav -->
+
+
+    </header>
+    <!-- /Header -->
+		<!-- Home -->
+		<div id="home" class="banner-area">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/background04.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="home-wrapper">
+
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="home-content">
+						<h1 class="white-text">Welcome To E-Med Care</h1>
+						<h5 class="white-text" style="padding-bottom: 0px; margin-bottom: 30px;"><em>Your Favourite Online Doctor</em></h5>
+						<h4 class="white-text lead">E-MedCare is a medical platform that connect with specialist doctors spread across the nations. On E-MedCare, you will find certified doctors that specialize in several areas of Medicine. They are available to attend to you both offline and online.<br><br><strong>Book a Consultation Session Below</strong></h4>
+						<button class="main-button">Start a Session</button>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- /Home -->
+		<!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row services-heading">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="section-heading text-uppercase">Services</h2>
+            <h3 class="section-subheading text-muted" id="section-subheading"><em>Spend less, invest extra time in leisure. Stay healthy with online doctor consultation, designed for you </em></h3>
+          </div>
+        </div>
+        <div class="row text-center" id="services-content">
+          <div class="col-md-3">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Video Consulting Service</h4>
+            <p class="text-muted">Connect one on one with online doctors to get answers and opinion on reports anonymously</p>
+          </div>
+          <div class="col-md-3">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-ambulance fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Health Blog</h4>
+            <p class="text-muted">Advice from best doctors and top medical experts from the best medical institutions from all over the country</p>
+          </div>
+          <div class="col-md-3">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-stethoscope fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Online Diagnosis</h4>
+            <p class="text-muted">Get diagnosis and treatment plan from doctor on chat, phone or video call and make better and informed decision</p>
+          </div>
+          <div class="col-md-3">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Map</h4>
+            <p class="text-muted">We help you find Health Care Centers and Hospitals closest to you</p>
+          </div>
+        </div>
+      </div>
+    </section>
+		<!-- Testimonial Carousel -->
+<section id="carousel">    				
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h2 class="text-center">TESTIMONIALS</h2>
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="5000">
+				  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+				    <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+				  </ol>
+				  <!-- Carousel items -->
+				  <div class="carousel-inner">
+				    <div class="item">
+                        <div id="item" class="text-center"><img src="img/boy.png" width="100px" height="100px"></div>
+				    	<blockquote>
+				    		<p>Ater trying out <code>Wingardium Leviosa, Patronus Charm, Alohomora</code> and they all still won't work, I opted for E-MedCare, and its safe to say they have the best doctors on the planet and they provide the best medical care to their customers </p><footer>Sirius Black
+				    		</footer>
+				    	</blockquote>	
+				    </div>
+				    <div class="item">
+                        <div id="item" class="text-center"><img src="img/girl.png" width="100px" height="100px"></div>
+				    	<blockquote>
+				    		<p>Ater trying out <code>Wingardium Leviosa, Patronus Charm, Alohomora</code> and they all still won't work, I opted for E-MedCare, and its safe to say they have the best doctors on the planet and they provide the best medical care to their customers</p><footer>Edith Mrs.</footer>
+				    	</blockquote>
+				    </div>
+				    <div class="active item">
+                        <div id="item" class="text-center"><img src="img/man.png" width="100px" height="100px"></div>
+				    	<blockquote>
+				    		<p>Ater trying out <code>Wingardium Leviosa, Patronus Charm, Alohomora</code> and they all still won't work, I opted for E-MedCare, and its safe to say they have the best doctors on the planet and they provide the best medical care to their customers</p><footer>Professor Dumbledore
+				    		</footer>
+				    	</blockquote>
+				    </div>
+                    <div class="item">
+                        <div id="item" class="text-center"><img src="img/boy.png" width="100px" height="100px"></div>
+    			    	<blockquote>
+				    		<p>Ater trying out <code>Wingardium Leviosa, Patronus Charm, Alohomora</code> and they all still won't work, I opted for E-MedCare, and its safe to say they have the best doctors on the planet and they provide the best medical care to their customers</p><footer>Harry Potter
+				    		</footer>
+				    	</blockquote>
+				    </div>
+                    <div class="item">
+                        <div id="item" class="text-center"><img src="img/man.png" width="100px" height="100px"></div>
+    			    	<blockquote>
+				    		<p>Ater trying out <code>Wingardium Leviosa, Patronus Charm, Alohomora</code> and they all still won't work, I opted for E-MedCare, and its safe to say they have the best doctors on the planet and they provide the best medical care to their customers</p>
+				    	<footer>James Potter
+				    		</footer></blockquote>
+				    </div>
+                    <div class="item">
+                        <div id="item" class="text-center"><img src="img/girl.png" width="100px" height="100px"></div>
+    			    	<blockquote>
+				    		<p>Ater trying out <code>Wingardium Leviosa, Patronus Charm, Alohomora</code> and they all still won't work, I opted for E-MedCare, and its safe to say they have the best doctors on the planet and they provide the best medical care to their customers</p>
+				    	<footer>Hermione Granger
+				    		</footer></blockquote>
+				    </div>
+				  </div>
+				</div>
+			</div>							
+		</div>
+	</div>
+</section>
+		
+		<!-- Frequetly Asked Questions -->
+		<section class="Faq" id="Frequetly">
+		<div class="container-fluid">
+			<div id="Faq">
+				<div class="row">
+				<div class="Faq-title"><h3>Frequently Asked Questions</h3></div>
+					<div class="col-lg-4 col-lg-offset-2">
+						    <ul class="faq ">
+						      <li class="q"><i class="fa fa-arrow-right"></i>How Online doctor visit works</li>
+						      <li class="a">Program to print all Possible Movement between 9 sectrors Program to print all Possible Movement between 9 sectrors</li>
+						      <li class="q"><i class="fa fa-arrow-right"></i>Are online doctoes as effective as offline doctors</li>
+						      <li class="a">Program to print all Possible Movement between 9 sectrors Program to print all Possible Movement between 9 sectrors</li>
+						      <li class="q"><i class="fa fa-arrow-right"></i>When do i get an answer to my query</li>
+						      <li class="a">Program to print all Possible Movement between 9 sectrors Program to print all Possible Movement between 9 sectrors</li>
+						      <li class="q"><i class="fa fa-arrow-right"></i>Is my doctor qualified?</li>
+						      <li class="a">Program to print all Possible Movement between 9 sectrors Program to print all Possible Movement between 9 sectrors</li>
+						    </ul>  	
+					</div>
+					<div class="col-lg-4">
+							<ul class="faq ">
+						      <li class="q"><i class="fa fa-arrow-right"></i>Is my consultation secure</li>
+						      <li class="a">Program to print all Possible Movement between 9 sectrors Program to print all Possible Movement between 9 sectrors</li>
+						      <li class="q"><i class="fa fa-arrow-right"></i>Willi get prescription from online doctor</li>
+						      <li class="a">Program to print all Possible Movement between 9 sectrors Program to print all Possible Movement between 9 sectrors</li>
+						      <li class="q"><i class="fa fa-arrow-right"></i>What is your name?</li>
+						      <li class="a">Program to print all Possible Movement between 9 sectrors Program to print all Possible Movement between 9 sectrors</li>
+						      <li class="q"><i class="fa fa-arrow-right"></i>What if my query is not already answered above?</li>
+						      <li class="a">Program to print all Possible Movement between 9 sectrors Program to print all Possible Movement between 9 sectrors</li>
+						    </ul>  	
+						
+					</div> 
+					</div>
+				</div>
+			</div>
+	</section>
+<!-- End Frequently Asked Questions  -->
+<!-- Our Team -->
+<section id="team">
+		<div class="container">
+      <!-- Introduction Row -->
+      <h1 class="my-4 text-center">Our Amazing Team
+      </h1><hr>
+      <article class="text-center">The best group of developers...</article>
+      <!-- Team Members Row -->
+      <div class="row" style="margin-bottom: 50px;">
+        <div class="col-lg-12">
+          <h2 class="my-4"></h2>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="img-circle img-fluid d-block mx-auto" src="img/girl.png" alt="" width="150" height="150">
+          <h3>Gesi</h3>
+            <small>Lead Designer/Cheerleader</small>
+          <p><ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul></p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4" >
+          <img class="img-circle img-fluid d-block mx-auto" src="img/boy.png" alt="" width="150" height="150">
+          <h3>Odunayo</h3>
+            <small>Lead Developer</small>
+          <p><ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul></p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="img-circle img-fluid d-block mx-auto" src="img/girl.png" alt="" width="150" height="150">
+          <h3>Serah</h3>
+            <small>Lead Designer/Cheerleader</small>
+          <p><ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul></p>
+        </div>
+        </div>
+        <div class="row" style="margin-bottom: 50px;">
+        <div class="col-lg-4 col-sm-6 col-lg-offset-2 text-center mb-4">
+          <img class="img-circle img-fluid d-block mx-auto" src="img/man.png" alt="" width="150" height="150">
+          <h3>Mohammed</h3>
+            <small>Lead Developer</small>
+          <p><ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul></p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="img-circle img-fluid d-block mx-auto" src="img/man.png" alt="" width="150" height="150">
+          <h3>Samuel</h3>
+            <small>Lead Designer</small>
+          <p><ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul></p>
+        </div>
+      </div>
+
+    </div>
+	
+</section>
+		<!-- blogs -->
+		<div id="blogPosts" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- section header -->
+					<div class="section-header text-center">
+					<br><br>
+						<h2 class="title">Recent Blogs Posts</h2>
+					</div>
+					<!-- /section header -->
+
+					<!-- single blog -->
+					<div class="col-md-6" >
+						<div class="blog">
+							<div class="blog-img">
+								<img src="./img/avatar.png" alt="">
+								<div class="blog-day">
+									<span>08<br>July</span>
+								</div>
+							</div>
+							<div class="blog-content">
+								<p><i class="fa fa-clock-o"></i> 8.00AM</p>
+								<h3 ><a href="#">Blog Post 1</a></h3>
+								<p class="text-justify">An excerpt from blog post 1</p>
+							</div>
+						</div>
+					</div>
+					<!-- /single blog -->
+
+					<!-- single blog -->
+					<div class="col-md-6">
+						<div class="blog">
+							<div class="blog-img">
+								<img src="./img/avatar.png" alt="">
+								<div class="blog-day">
+									<span>08<br>June</span>
+								</div>
+							</div>
+							<div class="blog-content">
+								<p><i class="fa fa-clock-o"></i> 8.00AM</p>
+								<h3 ><a href="#">Blog Post 2</a></h3>
+								<p class="text-justify">An excerpt from blog post 2</p>
+							</div>
+						</div>
+					</div>
+					<!-- /single blog -->
+
+					<!-- single blog -->
+					<div class="col-md-6">
+						<div class="blog">
+							<div class="blog-img">
+								<img src="./img/avatar.png" alt="">
+								<div class="blog-day">
+									<span>08<br>May</span>
+								</div>
+							</div>
+							<div class="blog-content">
+								<p><i class="fa fa-clock-o"></i> 8.00AM</p>
+								<h3 ><a href="#">Blog Post 3</a></h3>
+								<p class="text-justify">An excerpt from blog post 3</p>
+							</div>
+						</div>
+					</div>
+					<!-- /single blog -->
+
+					<!-- single blog -->
+					<div class="col-md-6">
+						<div class="blog">
+							<div class="blog-img">
+								<img src="./img/avatar.png" alt="">
+								<div class="blog-day">
+									<span>08<br>April</span>
+								</div>
+							</div>
+							<div class="blog-content">
+								<p><i class="fa fa-clock-o"></i> 8.00AM</p>
+								<h3 ><a href="#"> Blog Post 4</a></h3>
+								<p class="text-justify">An excerpt from blog post 4</p>
+							</div>
+						</div>
+					</div>
+					<!-- /single blog -->
+
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+
+		</div>
+		<!-- /blogs -->
+
+<!-- Contact Us FOrm -->
+<div id="ContactForm">
+  <div class="content" >
+  	<div class="container">
+    <div class="row">
+    	<div class="col-md-6">
+    		<img src="img/contac.png" class="img-circle" style="padding: 100px;">
+    	</div>
+        <div class="col-md-6">
+            <div class="well well-sm">
+                <form class="form-horizontal" name="us" method="post" onsubmit="return frmChecker(this)">
+                    <fieldset>
+                        <legend class="text-center header">Contact us</legend>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="fname" type="text" placeholder="First Name" class="form-control" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="lname" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="main-button btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+		<!-- Footer -->
+<footer class="footer1">
+<div class="container">
+<div class="row"><!-- row -->
+            
+                <div class="col-lg-6 col-md-6"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Who is E-MedCare</h1>
+                                <blockquote class="text-justify" style="font-size: 15px;">E-MedCare is a medical platform that connect with specialist doctors spread across the nations. On E-MedCare, you will find certified doctors that specialize in several areas of Medicine. They are available to attend to you both offline and online. We are here to ensure that you get the best medical attention <footer>Founders, E-MedCare Foundation</footer></blockquote>
+                              	               
+							</li>
+                        </ul>
+                </div><!-- widgets column left end -->
+                 
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Our Services</h1>
+                                
+                                <ul>
+
+
+                <li><a href="#"><i class="fa fa-arrow-right"></i> Online Video Consultation</a></li>
+ 				<li><a href="#"><i class="fa fa-arrow-right"></i> Health Blog</a></li>
+				<li><a href="#"><i class="fa fa-arrow-right"></i> Home Consultation</a></li>
+				<li><a href="#"><i class="fa fa-arrow-right"></i> Map With Hospital Landmarks</a></li>
+				<li><a href="#"><i class="fa fa-arrow-right"></i> Drug Prescription</a></li>
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                
+                <hr>
+                <p class="text-left inverse-text"><strong>E-MedCare app coming to playstore and itunes soon!!!</strong></p>
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column center -->
+                        <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_recent_news"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Contact Info.</h1>
+                                <hr>
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">E-MedCare</h2>
+                                <p><b>Email Address:</b> <a href="#">e_medcare@gmail.com</a></p>
+							    <p><b>Postal Address: </b>********************************</p>
+    							<p><b>Phone Numbers : </b>+234********</p>
+                                </div>
+                                
+                                <div class="social-icons">
+                                	<ul class="nomargin">                    
+                <a href=""><i class="fa fa-facebook fa-3x" id="social" ></i></a>
+	            <a href=""><i class="fa fa-twitter fa-3x social-tw" id="social"></i></a>
+	            <a href=""><i class="fa fa-google fa-3x social-gp" id="social"></i></a>
+	            <a href=""><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div>
+                    		</li>
+                          </ul>
+                       </div>
+                </div>
+</div>
+</footer>
+		<!-- Contact -->
+
+		<!-- Footer -->
+		<footer id="footer">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- copyright -->
+					<div class="col-md-6">
+						
+						<span class="copyright">Copyright @2018 All rights reserved | The E-MedCare Platform Was Created by Drizzy Group of WAAW Foundation</span>
+						
+					</div>
+					<!-- /copyright -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<nav class="footer-nav">
+							<a href="#">Home</a>
+							<a href="#">Faq</a>
+							<a href="#">Our Services</a>
+							<a href="#">Health Blog</a>
+							<a href="#">Privacy Policy</a>
+						</nav>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="js/google-map.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
